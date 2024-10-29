@@ -41,4 +41,3 @@ class LRUCache(BaseCaching):
             self.usage.append(key)
             return self.cache_data[key]
         return None
-
